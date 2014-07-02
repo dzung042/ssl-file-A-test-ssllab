@@ -1,0 +1,10 @@
+SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL:!DH
+SSLProtocol -ALL -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
+
+SSLHonorCipherOrder on
+SSLStrictSNIVHostCheck On
+SSLCompression off
+
+SSLOptions +ExportCertData +StrictRequire
+
+
