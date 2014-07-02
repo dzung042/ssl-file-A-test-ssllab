@@ -1,3 +1,7 @@
+OS: Ubuntu 14.04 LTS
+Apache 2.4
+
+#### In the SSL.CONF file
 SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL:!DH
 SSLProtocol -ALL -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
 
@@ -6,5 +10,10 @@ SSLStrictSNIVHostCheck On
 SSLCompression off
 
 SSLOptions +ExportCertData +StrictRequire
+
+### In the <virtualhost> section of file default-ssl.conf
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+Header always set X-Frame-Options DENY
+
 
 
