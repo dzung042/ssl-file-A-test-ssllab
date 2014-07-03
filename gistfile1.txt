@@ -3,7 +3,7 @@ Apache 2.4
 SSL Labs: https://www.ssllabs.com/ssltest/analyze.html?d=cloud.hroling.nl
 
 #### In the SSL.CONF file
-SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL:!DH
+SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL
 SSLProtocol -ALL -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
 
 SSLHonorCipherOrder on
