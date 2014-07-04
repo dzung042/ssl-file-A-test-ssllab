@@ -14,6 +14,7 @@ SSLOptions +ExportCertData +StrictRequire
 
 ### In the <virtualhost> section of file default-ssl.conf
 ### headers_module must be enabled
+### Extra security settings
 Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
 Header always set X-Frame-Options DENY
 Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
