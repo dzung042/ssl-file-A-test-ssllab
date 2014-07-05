@@ -1,6 +1,10 @@
-OS: Ubuntu 14.04 LTS
-Apache 2.4.7
-SSL Labs: https://www.ssllabs.com/ssltest/analyze.html?d=cloud.hroling.nl
+OS: Ubuntu 14.04 LTS, Apache 2.4.7, OpenSSL 1.0.1f
+SSL Labs: A+
+Certificate: 100%
+Protocol Support: 95%
+Key Exchange: 90%
+Cipher Strength: 100% (90% is AES128+EDH is added to SSLCipherSuite)
+See: https://www.ssllabs.com/ssltest/analyze.html?d=cloud.hroling.nl
 
 #### In the SSL.CONF file
 SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL
