@@ -3,7 +3,7 @@ SSL Labs: A+
 Certificate: 100%
 Protocol Support: 95% (TLSv1.1 and higher is 97% and TLSv1.2 only is 100%)
 Key Exchange: 90% (if key-pair of certificate is 4096bits, this will be 100%)
-Cipher Strength: 100% (90% is AES128+EDH is added to SSLCipherSuite to support Java and Android 2.3.7)
+Cipher Strength: 100% 
 See: https://www.ssllabs.com/ssltest/analyze.html?d=cloud.hroling.nl
 
 #### In the SSL.CONF file
