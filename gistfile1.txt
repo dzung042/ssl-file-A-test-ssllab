@@ -5,6 +5,7 @@ Protocol Support: 95% (TLSv1.1 and higher is 97% and TLSv1.2 only is 100%)
 Key Exchange: 90% (if key-pair of certificate is 4096bits, this will be 100%)
 Cipher Strength: 100% 
 See: https://www.ssllabs.com/ssltest/analyze.html?d=cloud.hroling.nl
+The 4*100%: https://www.ssllabs.com/ssltest/analyze.html?d=owncloud.hroling.nl
 
 #### In the SSL.CONF file
 SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL
