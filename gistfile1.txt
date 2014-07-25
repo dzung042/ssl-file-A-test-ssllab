@@ -6,7 +6,7 @@ Key Exchange: 90% (if key-pair of certificate is 4096bits, this will be 100%)
 Cipher Strength: 100% 
 
 #### In the SSL.CONF file
-SSLCipherSuite AES256+EECDH:AES256+EDH:!aNULL
+SSLCipherSuite AES256+EECDH:AES256+EDH:3DES:!aNULL
 SSLProtocol -ALL -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
 
 SSLHonorCipherOrder on
