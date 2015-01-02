@@ -1,5 +1,5 @@
 OS: Ubuntu 14.04 LTS, Apache 2.4.7, OpenSSL 1.0.1f
-SSL Labs: A+ (SHA256 certificate)
+SSL Labs: A+ (RSA4096, SHA256 certificate)
 Certificate: 100%
 Protocol Support: 95% (TLSv1.1 and higher is 97% and TLSv1.2 only is 100%)
 Key Exchange: 100% (if key-pair of certificate is 2048bits, this will be 90%)
